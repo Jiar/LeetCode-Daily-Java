@@ -3,12 +3,12 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /// https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/
-class Solution {
+class Solution_2021_03_09 {
 
     /// https://leetcode-cn.com/submissions/detail/153325238/
     public static void main(String args[]) {
         String example = "abbaca";
-        Solution solution = new Solution();
+        Solution_2021_03_09 solution = new Solution_2021_03_09();
         String result1 = solution.removeDuplicates1(example);
         System.out.println(result1);
         String result2 = solution.removeDuplicates2(example);
