@@ -5,6 +5,7 @@ import java.util.stream.Collectors;
 /// https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/
 class Solution {
 
+    /// https://leetcode-cn.com/submissions/detail/153325238/
     public static void main(String args[]) {
         String example = "abbaca";
         Solution solution = new Solution();
@@ -40,6 +41,7 @@ class Solution {
         return result.stream().map(String::valueOf).collect(Collectors.joining());
     }
 
+    /// https://leetcode-cn.com/submissions/detail/153324013/
     public String removeDuplicates2(String s) {
         int length = s.length();
         if (length == 0) {
